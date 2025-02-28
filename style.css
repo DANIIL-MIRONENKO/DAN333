@@ -84,3 +84,39 @@ body {
   .song-text {
     animation: fadeInText 2s ease-in-out;
   }
+
+
+
+
+
+header {
+    background-color: white;
+    padding: 20px;
+    height: 60px;
+}
+
+nav{
+   width: 70%;
+   float: left;
+}
+
+nav a{
+  color:  #48036f;
+  text-align: center;
+  padding: 14px 5%;
+  text-decoration: none;
+} 
+
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+main{
+    z-index: 0;
+}
